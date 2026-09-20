@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>大大大垂耳兔 · Big Floppy Bunny</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Gowun+Dodum&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="images.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Big Floppy Bunny home"><span>THE</span> FLOPPY<br>BUNNY <i>ARCHIVE</i></a>
+    <nav class="tabs" aria-label="Main navigation">
+      <button class="tab active" data-page="home" data-zh="基本信息" data-en="Profile">基本信息</button>
+      <button class="tab" data-page="gallery" data-zh="兔兔相册" data-en="Gallery">兔兔相册</button>
+      <button class="tab" data-page="diary" data-zh="今日兔语" data-en="Bunny Notes">今日兔语</button>
+      <button class="tab" data-page="rules" data-zh="相处须知" data-en="House Rules">相处须知</button>
+    </nav>
+    <button class="language" id="language" aria-label="Switch language"><span>中</span> / EN</button>
+  </header>
+
+  <main>
+    <section class="page active" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow" data-zh="档案编号 · 001" data-en="ARCHIVE NO. · 001">档案编号 · 001</p>
+        <h1 data-zh="大大大<br><em>垂耳兔</em>" data-en="Big<br><em>Floppy Bunny</em>">大大大<br><em>垂耳兔</em></h1>
+        <p class="intro" data-zh="一只很有自己想法的小兔子。请轻声靠近，零食先行。" data-en="A little bunny with very firm opinions. Approach softly, snacks first.">一只很有自己想法的小兔子。请轻声靠近，零食先行。</p>
+        <div class="facts">
+          <div><small data-zh="名字" data-en="NAME">名字</small><strong data-zh="大大大垂耳兔" data-en="Big Floppy Bunny">大大大垂耳兔</strong></div>
+          <div><small data-zh="年龄" data-en="AGE">年龄</small><strong data-zh="不详" data-en="Unknown">不详</strong></div>
+          <div class="wide"><small data-zh="性格" data-en="TEMPERAMENT">性格</small><strong data-zh="粘人 · 傲娇 · 爱吃醋 · 有时候 mean · 冷脸萌" data-en="Clingy · Tsundere · Jealous · Sometimes mean · Cute with a cold face">粘人 · 傲娇 · 爱吃醋 · 有时候 mean · 冷脸萌</strong></div>
+        </div>
+      </div>
+      <div class="bunny-stage">
+        <div class="stamp">CERTIFIED<br>ADORABLE</div>
+        <div class="daisy d1">✳</div><div class="daisy d2">✳</div>
+        <img class="bunny-photo" src="images/profile.jpg" alt="大大大垂耳兔的主页照片" />
+        <!--
+          <ellipse cx="260" cy="536" rx="174" ry="27" fill="#d2b998" opacity=".35"/>
+          <path d="M162 225C72 127 50 51 91 37c43-15 94 111 120 164" fill="#c98365" stroke="#51362d" stroke-width="6"/>
+          <path d="M173 213C105 132 96 84 107 77c19-9 63 85 87 132" fill="#edb09a"/>
+          <path d="M354 225c91-98 112-174 71-188-43-15-94 111-120 164" fill="#c98365" stroke="#51362d" stroke-width="6"/>
+          <path d="M344 213c67-81 76-129 65-136-19-9-63 85-87 132" fill="#edb09a"/>
+          <path d="M135 334c0-120 56-176 125-176s125 56 125 176v125c0 66-48 95-125 95s-125-29-125-95z" fill="#e8b78e" stroke="#51362d" stroke-width="6"/>
+          <ellipse cx="206" cy="310" rx="13" ry="17" fill="#30201b"/><ellipse cx="314" cy="310" rx="13" ry="17" fill="#30201b"/>
+          <path d="M240 348q20 15 40 0q-20 38-40 0" fill="#b96161" stroke="#51362d" stroke-width="5"/>
+          <path d="M260 369v15m0 0q-20 14-33 0m33 0q20 14 33 0" fill="none" stroke="#51362d" stroke-width="5" stroke-linecap="round"/>
+          <path d="M151 391c-77 36-68 142-5 133l56-18-22-108zM369 391c77 36 68 142 5 133l-56-18 22-108z" fill="#e8b78e" stroke="#51362d" stroke-width="6"/>
+          <path d="M157 412q-35 62 10 81M363 412q35 62-10 81" fill="none" stroke="#d39270" stroke-width="7" stroke-linecap="round"/>
+          <path d="M165 430q95 42 190 0v66q-95 59-190 0z" fill="#7d9f87" stroke="#51362d" stroke-width="6"/>
+          <path d="M260 432v91" stroke="#51362d" stroke-width="5"/><circle cx="260" cy="462" r="6" fill="#f3d590"/><circle cx="260" cy="491" r="6" fill="#f3d590"/>
+          <path d="M186 540q-12 26-49 21M334 540q12 26 49 21" fill="none" stroke="#51362d" stroke-width="6" stroke-linecap="round"/>
+        -->
+        <p class="image-note" data-zh="今日表情：没有表情" data-en="MOOD TODAY: NO EXPRESSION">今日表情：没有表情</p>
+      </div>
+    </section>
+
+    <section class="page inner" id="gallery">
+      <p class="eyebrow" data-zh="兔兔相册 · 随机精选" data-en="GALLERY · CURATED MOMENTS">兔兔相册 · 随机精选</p>
+      <h2 data-zh="日常的一些<br><em>证据</em>" data-en="A few pieces of<br><em>evidence</em>">日常的一些<br><em>证据</em></h2>
+      <div class="gallery-grid">
+        <figure class="photo"><img src="images/mood-happy.jpg" alt="开心的大大大垂耳兔" /><figcaption><span>01</span><b data-zh="开心营业中" data-en="Happy & available">开心营业中</b></figcaption></figure>
+        <figure class="photo"><img src="images/mood-grumpy.jpg" alt="臭脸的大大大垂耳兔" /><figcaption><span>02</span><b data-zh="拒绝沟通的下午" data-en="An afternoon of silence">拒绝沟通的下午</b></figcaption></figure>
+        <figure class="photo"><img src="images/mood-curious.jpg" alt="好奇的大大大垂耳兔" /><figcaption><span>03</span><b data-zh="零食雷达启动" data-en="Snack radar activated">零食雷达启动</b></figcaption></figure>
+        <figure class="photo"><img src="images/mood-sleepy.jpg" alt="困倦的大大大垂耳兔" /><figcaption><span>04</span><b data-zh="暂停营业" data-en="Closed for naps">暂停营业</b></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="page inner notes" id="diary">
+      <p class="eyebrow" data-zh="今日兔语 · 09 / 20" data-en="BUNNY NOTES · 09 / 20">今日兔语 · 09 / 20</p>
+      <h2 data-zh="请把胡萝卜<br><em>交出来。</em>" data-en="Hand over<br><em>the carrot.</em>">请把胡萝卜<br><em>交出来。</em></h2>
+      <div class="quote-card"><span>“</span><p data-zh="我没有生气。我只是暂时不想看见你，除非你手里拿着零食。" data-en="I'm not mad. I just don't want to see you right now, unless you are holding snacks.">我没有生气。我只是暂时不想看见你，除非你手里拿着零食。</p><small data-zh="— 大大大垂耳兔，可能说过" data-en="— BIG FLOPPY BUNNY, PROBABLY">— 大大大垂耳兔，可能说过</small></div>
+    </section>
+
+    <section class="page inner rules" id="rules">
+      <p class="eyebrow" data-zh="相处须知 · 请仔细阅读" data-en="HOUSE RULES · READ CAREFULLY">相处须知 · 请仔细阅读</p>
+      <h2 data-zh="获得兔兔好感的<br><em>正确方式</em>" data-en="The proper way to earn<br><em>bunny favor</em>">获得兔兔好感的<br><em>正确方式</em></h2>
+      <ol>
+        <li data-zh="进门先问好，再摸头。" data-en="Say hello before head pats.">进门先问好，再摸头。</li>
+        <li data-zh="零食必须公平分配。" data-en="Snacks must be distributed fairly.">零食必须公平分配。</li>
+        <li data-zh="冷脸不等于不喜欢你。" data-en="A cold face does not mean dislike.">冷脸不等于不喜欢你。</li>
+      </ol>
+    </section>
+  </main>
+  <footer><span>© BIG FLOPPY BUNNY</span><span data-zh="用爱与胡萝卜维护" data-en="MAINTAINED WITH LOVE & CARROTS">用爱与胡萝卜维护</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
